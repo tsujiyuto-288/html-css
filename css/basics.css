@@ -11,9 +11,14 @@ body {
 
 header {
   background-color: aqua;
+  display: flex;
 }
 
 li {
   list-style: none;
-  float: left;
+}
+
+.horizontal-list {
+  display: flex;
+  gap: 10px;
 }
