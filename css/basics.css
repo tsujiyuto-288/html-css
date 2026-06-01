@@ -1,3 +1,4 @@
+/* カンマをつけると、複数のセレクタに対して同じcssを当てる */
 html,
 body {
   height: 100vh;
@@ -23,4 +24,13 @@ li {
 .horizontal-list {
   display: flex;
   gap: 10px;
+}
+
+/* スペースを開けた場合『〇〇の中の、〇〇』に対してcssがあたる */
+.test p {
+  color: blue;
+}
+/* スペースを開けない場合『〇〇かつ、〇〇』な要素に対してcssがあたる */
+h2.test-h2 {
+  color: brown;
 }
