@@ -11,6 +11,11 @@ header {
   display: flex;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 h1 {
   color: rgb(39, 22, 22);
   margin: 0;
