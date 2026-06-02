@@ -20,6 +20,8 @@ h1 {
   color: rgb(39, 22, 22);
   margin: 0;
   padding: 20px;
+  /* borderは太さ、種類、色　の順で値を指定する */
+  border: 3px solid blue;
 }
 
 li {
