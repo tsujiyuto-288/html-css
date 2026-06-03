@@ -54,3 +54,12 @@ img {
   height: 200px;
   width: auto;
 }
+
+.test {
+  width: 1170px;
+}
+
+footer {
+  background-image: url(../images/test背景.png);
+  background-size: cover;
+}
