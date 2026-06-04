@@ -62,4 +62,12 @@ img {
 footer {
   background-image: url(../images/test背景.png);
   background-size: cover;
+  height: 200px;
+}
+
+.footer-title h2 {
+  opacity: 0.9;
+  letter-spacing: 5px;
+  color: whitesmoke;
+  border-color: whitesmoke;
 }

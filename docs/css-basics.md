@@ -1,6 +1,6 @@
 # cssの色々なプロパティ
 
-## background-image:
+## background-image
 
 背景画像を指定する。
 
@@ -31,3 +31,8 @@
   background-position: center;
 }
 ```
+
+---
+
+## opacity
+
