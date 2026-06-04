@@ -1,6 +1,6 @@
 # cssの色々なプロパティ
 
-## background-image
+## ✒️background-image
 
 背景画像を指定する。
 
@@ -32,7 +32,25 @@
 }
 ```
 
----
+## ✒️opacity
 
-## opacity
+不透明度を指定する
+値は、0.0 ~ 1.0 までで不透明度を指定する。
 
+```css
+/* 70%表示されて30%透明になる */
+.footer p {
+  opacity: 0.7;
+}
+```
+
+## ✒️letter-spacing
+
+文字の間を指定する
+
+```css
+/* 10px分隙間が開く */
+.footer p {
+  letter-spacing: 10px;
+}
+```
