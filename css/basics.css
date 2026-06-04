@@ -48,6 +48,12 @@ h2 {
   border-bottom: 2px solid black;
   padding: 10px;
   margin: 5px;
+  color: blueviolet;
+  transition: color 0.3s;
+}
+
+.h2-hover:hover {
+  color: aqua;
 }
 
 img {
@@ -68,6 +74,5 @@ footer {
 .footer-title h2 {
   opacity: 0.9;
   letter-spacing: 5px;
-  color: whitesmoke;
   border-color: whitesmoke;
 }

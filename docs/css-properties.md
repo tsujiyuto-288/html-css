@@ -54,3 +54,30 @@
   letter-spacing: 10px;
 }
 ```
+
+## ✒️:hover
+
+マウスが乗っている時だけCSSを適用する。
+
+```css
+/* h2にマウスが乗った時だけ文字色が変わる */
+.h2-hover:hover {
+  color: aqua;
+}
+```
+
+## ✒️transition
+
+変化にかかる時間を指定する。
+
+```css
+/* 文字色が0.3秒かけて変化する */
+h2 {
+  color: blueviolet;
+  transition: color 0.3s;
+}
+
+.h2-hover:hover {
+  color: aqua;
+}
+```
