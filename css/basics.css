@@ -92,4 +92,6 @@ footer {
   background-color: rgba(100, 200, 100, 0.5);
 }
 
-
+.line-height {
+  line-height: 100px;
+}
