@@ -76,3 +76,20 @@ footer {
   letter-spacing: 5px;
   border-color: whitesmoke;
 }
+
+.opacity-sample {
+  background-color: aqua;
+  opacity: 0.5;
+}
+
+/* opacityは上書きとかできない */
+.opacity-overwrite {
+  opacity: 1;
+}
+
+/* rgbaを使用するとその要素だけで透明度を指定できる */
+.rgba-sample {
+  background-color: rgba(100, 200, 100, 0.5);
+}
+
+
