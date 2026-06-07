@@ -95,3 +95,9 @@ footer {
 .line-height {
   line-height: 100px;
 }
+
+.block span {
+  display: block;
+}
+
+
